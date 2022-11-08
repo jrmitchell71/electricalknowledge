@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_6EMiU0LTPCV_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">Electrical Knowledge - Concepts Basics</langstring>
+        </title>
+        <description>
+          <langstring xml:lang="x-none">Learn the basics about electricity in this module of the Electrical Knowledge series. This training provides definitions of the different ways electricity is measured.</langstring>
+        </description>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H3M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="Electrical_Knowledge_-_Concepts_Basics_ORG">
+    <organization identifier="Electrical_Knowledge_-_Concepts_Basics_ORG">
+      <title>Electrical Knowledge - Concepts Basics</title>
+      <item identifier="Electrical_Concepts_Basics_SCO" isvisible="true" identifierref="__6EMiU0LTPCV_course_id_RES">
+        <title>Electrical Knowledge - Concepts Basics</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__6EMiU0LTPCV_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="mobile/5WjwlxiWNRL_80_P_0_120_1868_1054.jpg" />
+      <file href="story_content/5qtPtWqjsKM_44100_48_0.mp3" />
+      <file href="story_content/676wjHWmcF5_captions.js" />
+      <file href="mobile/6kJTXmJCWxT_80_P_106_1_1706_960.jpg" />
+      <file href="story_content/video_6puqiFg172q_22_48_720x406.mp4" />
+      <file href="story_content/5lofhv1QBRB_captions.js" />
+      <file href="mobile/poster_5lofhv1QBRB_video_6puqiFg172q_22_48_720x406.jpg" />
+      <file href="story_content/6T9CTfKMjLv_44100_48_0.mp3" />
+      <file href="story_content/6W3wqEnjSEK_captions.js" />
+      <file href="mobile/6FdxOk5IQeP.png" />
+      <file href="mobile/5fFzEJBiAmq.png" />
+      <file href="mobile/6DZL87D5tT0.png" />
+      <file href="mobile/5k3l8p3HeCg.png" />
+      <file href="mobile/5VxPnd9AnRH.png" />
+      <file href="story_content/6iaem8nuNMz_44100_48_0.mp3" />
+      <file href="mobile/5hfFDK0slfy.png" />
+      <file href="mobile/6giTlWMVkWy.png" />
+      <file href="mobile/6e4OofA8oeA.png" />
+      <file href="story_content/5sP8v1o8mlK_44100_48_0.mp3" />
+      <file href="mobile/5YeELEtBHXc.png" />
+      <file href="story_content/5aohN2woaSE_44100_48_0.mp3" />
+      <file href="mobile/65vuHpZgQSz.png" />
+      <file href="story_content/5vjTKKviUfm_44100_48_0.mp3" />
+      <file href="mobile/5mN2XED8o6n.png" />
+      <file href="mobile/65qiI2ZnE4Y.png" />
+      <file href="story_content/62nZU4aNBnF_44100_48_0.mp3" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="mobile/Shape5k0HW4fFdSw.png" />
+      <file href="mobile/Shape5b8wI6bt51y.png" />
+      <file href="mobile/Shape5myphHvRNR7.png" />
+      <file href="mobile/Shape6ZPoKCHkzac.png" />
+      <file href="mobile/Shape6EOh602L17a.png" />
+      <file href="mobile/Shape6fegWFy75kg.png" />
+      <file href="mobile/Shape5cNy1MFHfXz.png" />
+      <file href="mobile/Shape6fA5QGl5ovi.png" />
+      <file href="mobile/Shape6hNDZjHwNLP.png" />
+      <file href="mobile/Shape6qjuorjxSgq.png" />
+      <file href="mobile/Shape5czmqfRrhif.png" />
+      <file href="mobile/Shape5toEO3VtTQf.png" />
+      <file href="mobile/Shape5maK5uoKNYu.png" />
+      <file href="mobile/Shape5ZzjMfmdk26.png" />
+      <file href="mobile/Shape5uVEtmIeWtw.png" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5iLMlQNSC2x.js" />
+      <file href="html5/data/js/5s0HAcLN7qk.js" />
+      <file href="html5/data/js/5WShFMapm33.js" />
+      <file href="html5/data/js/5Z0mcBz32yh.js" />
+      <file href="html5/data/js/60paci7n1wp.js" />
+      <file href="html5/data/js/62KW4NpZcUF.js" />
+      <file href="html5/data/js/64la1rUzCUq.js" />
+      <file href="html5/data/js/6Aqq4yBlRxI.js" />
+      <file href="html5/data/js/6msEVGrqU04.js" />
+      <file href="html5/data/js/6RR2lTPM8T9.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/bootstrapper.min.js" />
+      <file href="html5/lib/scripts/frame.desktop.min.js" />
+      <file href="html5/lib/scripts/frame.mobile.min.js" />
+      <file href="html5/lib/scripts/slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>
