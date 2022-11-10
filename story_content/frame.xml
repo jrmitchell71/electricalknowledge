@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10111000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="120" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4F81BD">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00010000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4F81BD">
   <layouts>
-    <layout name="npnxnanbsnfns10111000101" font="Calibri" controllayout="npnxnanbsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000101" font="Calibri" controllayout="pxabnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
-    <layout name="npxnabnsnfns10111000101" font="Calibri" controllayout="npxnabnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
-    <layout name="npnxnanbnsnfns10111000101" font="Calibri" controllayout="npnxnanbnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000100" font="Calibri" controllayout="pxabnsnfns10111000100" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
-    <layout name="pnxanbnsnfns10111000101" font="Calibri" controllayout="pnxanbnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
+    <layout name="npnxnanbsnfns00010000101" font="Lato" controllayout="npnxnanbsnfns00010000101" colorscheme="npnxnanbnsnfns00010000101" string_table="npnxnanbnsnfns00010000101" />
+    <layout name="pxabnsnfns00010000101" font="Lato" controllayout="pxabnsnfns00010000101" colorscheme="npnxnanbnsnfns00010000101" string_table="npnxnanbnsnfns00010000101" />
+    <layout name="npxnabnsnfns00010000101" font="Lato" controllayout="npxnabnsnfns00010000101" colorscheme="npnxnanbnsnfns00010000101" string_table="npnxnanbnsnfns00010000101" />
+    <layout name="npnxnanbnsnfns00010000101" font="Lato" controllayout="npnxnanbnsnfns00010000101" colorscheme="npnxnanbnsnfns00010000101" string_table="npnxnanbnsnfns00010000101" />
+    <layout name="pxabnsnfns00010000100" font="Lato" controllayout="pxabnsnfns00010000100" colorscheme="npnxnanbnsnfns00010000101" string_table="npnxnanbnsnfns00010000101" />
+    <layout name="pnxanbnsnfns00010000101" font="Lato" controllayout="pnxanbnsnfns00010000101" colorscheme="npnxnanbnsnfns00010000101" string_table="npnxnanbnsnfns00010000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -14,13 +14,13 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Electrical Knowledge - Concepts Basics" />
+              <option name="title_text" value="Stop. Think. Sort." />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="true">
+          <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="true" />
@@ -29,14 +29,14 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="outline" value="false" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="none" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -60,18 +60,18 @@
       <optiongroup name="controls">
         <options>
           <option name="volume" value="true" />
-          <option name="seekbar" value="true">
+          <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
           <option name="pauseplay" value="true" />
-          <option name="replay" value="true" />
+          <option name="replay" value="false" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="true">
+          <option name="closed_captions" value="false">
             <options>
-              <option name="font" value="Calibri" />
+              <option name="font" value="Lato" />
             </options>
           </option>
           <option name="settings" value="false" />
@@ -93,10 +93,10 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10111000101">
+    <control_layout name="npnxnanbsnfns00010000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
@@ -110,17 +110,17 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000101">
+    <control_layout name="pxabnsnfns00010000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
@@ -134,17 +134,17 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10111000101">
+    <control_layout name="npxnabnsnfns00010000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
@@ -158,17 +158,17 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10111000101">
+    <control_layout name="npnxnanbnsnfns00010000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
@@ -182,17 +182,17 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000100">
+    <control_layout name="pxabnsnfns00010000100">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
@@ -206,17 +206,17 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns10111000101">
+    <control_layout name="pnxanbnsnfns00010000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
@@ -230,7 +230,7 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -239,7 +239,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns10111000101">
+    <colorscheme name="npnxnanbnsnfns00010000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1417,7 +1417,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns10111000101">
+    <string_table name="npnxnanbnsnfns00010000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1566,7 +1566,7 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Calibri">
+    <font name="Lato">
       <files>
         <file bold="true" italic="false" />
         <file bold="false" italic="false" />
@@ -1577,13 +1577,11 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.65pgi8RxdU3" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.5qcRbBGLDiI" displaytext="Untitled Scene" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.65pgi8RxdU3.5iLMlQNSC2x" displaytext="Begin" expand="false" type="slide" />
-            <slidelink slideid="_player.65pgi8RxdU3.5Z0mcBz32yh" displaytext="Introduction" expand="false" type="slide" />
-            <slidelink slideid="_player.65pgi8RxdU3.60paci7n1wp" displaytext="What is Electricity?" expand="false" type="slide" />
-            <slidelink slideid="_player.65pgi8RxdU3.62KW4NpZcUF" displaytext="Measuring Electricity" expand="false" type="slide" />
-            <slidelink slideid="_player.65pgi8RxdU3.6Aqq4yBlRxI" displaytext="Flip the Switch!" expand="false" type="slide" />
+            <slidelink slideid="_player.5qcRbBGLDiI.6XrynyoFewC" displaytext="Intro" expand="false" type="slide" />
+            <slidelink slideid="_player.5qcRbBGLDiI.5d32fofUR34" displaytext="Multiple Choice" expand="false" type="slide" />
+            <slidelink slideid="_player.5qcRbBGLDiI.5ymx6XS3MCt" displaytext="EXIT" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
